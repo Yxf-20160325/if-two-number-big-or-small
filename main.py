@@ -1,6 +1,5 @@
 import tkinter as tk
 import subprocess
-debug = False
 root = tk.Tk()
 root.title("比大小")
 def ft ():
@@ -31,7 +30,7 @@ def comparison():
         label.config(text=number2 + "大")
        elif number1 == number2:
         label.config(text="两个数字相等")
-#调试
+#debug
           
 root.geometry("400x200")
 label = tk.Label(root, text="请输入两个数字：")
